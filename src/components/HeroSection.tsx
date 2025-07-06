@@ -16,6 +16,7 @@ const menuItems = [
   { path: '/fin-ciclo-practico', title: 'Aprendizaje Práctico experimental', icon: '💡' },
   { path: '/fin-ciclo-autonomo', title: 'Aprendizaje Autónomo', icon: '🎓' },
   { path: '/fin-ciclo-recuperacion', title: 'Recuperación académica', icon: '📖' },
+  { path: '/fin-ciclo-agradecimientos', title: 'Agradecimientos', icon: '🙏' },
 ];
 
 const HeroSection: React.FC = () => {

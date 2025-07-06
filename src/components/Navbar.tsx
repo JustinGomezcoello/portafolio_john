@@ -18,6 +18,7 @@ const navigationItems = [
   { path: '/fin-ciclo-practico', label: 'Aprendizaje Práctico experimental', icon: '💡', color: 'bg-red-500' },
   { path: '/fin-ciclo-autonomo', label: 'Aprendizaje Autónomo', icon: '🎓', color: 'bg-teal-500' },
   { path: '/fin-ciclo-recuperacion', label: 'Recuperación académica', icon: '📖', color: 'bg-blue-500' },
+  { path: '/fin-ciclo-agradecimientos', label: 'Agradecimientos', icon: '🙏', color: 'bg-pink-500' },
 ];
 
 const Navbar: React.FC = () => {

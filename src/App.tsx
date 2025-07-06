@@ -23,6 +23,7 @@ import FinCicloDocente from './pages/FinCicloDocente';
 import FinCicloPractico from './pages/FinCicloPractico';
 import FinCicloAutonomo from './pages/FinCicloAutonomo';
 import FinCicloRecuperacion from './pages/FinCicloRecuperacion';
+import FinAgradecimientos from './pages/FinAgradecimientos';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="fin-ciclo-practico" element={<FinCicloPractico />} />
           <Route path="fin-ciclo-autonomo" element={<FinCicloAutonomo />} />
           <Route path="fin-ciclo-recuperacion" element={<FinCicloRecuperacion />} />
+          <Route path="fin-ciclo-agradecimientos" element={<FinAgradecimientos />} />
           <Route path="aprendizaje-contacto-docente-2" element={<AprendizajeContactoDocente2 />} />
           <Route path="aprendizaje-practico-experimental-2" element={<AprendizajePracticoExperimental2 />} />
           <Route path="aprendizaje-autonomo-2" element={<AprendizajeAutonomo2 />} />
