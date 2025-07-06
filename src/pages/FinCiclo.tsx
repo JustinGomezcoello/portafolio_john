@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import fotoUnidad4 from '/src/assets/images/Foto1UNIDAD4.png';
+import foto1 from '/src/assets/images/foto1.png';
 
 function FinCiclo() {
   const [typedText, setTypedText] = useState('');
@@ -44,8 +44,8 @@ function FinCiclo() {
             {/* Imagen y Aprendizaje */}
             <div className="bg-white rounded-lg shadow-lg p-6 mb-8 animate-slideIn flex flex-col items-center">
               <img 
-                src={fotoUnidad4}
-                alt="Foto1UNIDAD4"
+                src={foto1}
+                alt="foto1"
                 className="w-full max-w-3xl h-auto rounded-lg mb-8 shadow-xl object-cover"
               />
               <div className="text-gray-700 text-lg text-center">
