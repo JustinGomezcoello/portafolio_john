@@ -156,6 +156,27 @@ const FinCicloAutonomo: React.FC = () => (
           Gracias a todos los que visitaron nuestro espacio, probaron nuestras propuestas y se sumaron a este movimiento que crece con fuerza en el mundo.
         </p>
       </motion.section>
+
+      {/* Co-branding Mix Section */}
+      <motion.section
+        className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center"
+        initial="hidden"
+        animate="visible"
+        variants={sectionVariants}
+        custom={8}
+      >
+        <h2 className="text-2xl font-bold mb-4 text-center">🌮🥤🍰 "Tres marcas, una experiencia gastronómica que enamora" 💫🇪🇨</h2>
+        <motion.div className="w-full h-[500px] border border-gray-300 rounded-lg overflow-hidden mb-4" variants={imageVariants} initial="hidden" animate="visible">
+          <iframe
+            src={'/cobrandingmix.pdf'}
+            className="w-full h-full"
+            title="Co-branding Mix"
+          />
+        </motion.div>
+        <p className="text-gray-700 text-lg text-center mb-2">
+          La actividad nos permitió aplicar conceptos de segmentación, propuesta de valor, co-branding y promoción, reforzando la idea de que en marketing todo comunica, desde el nombre hasta el precio.
+        </p>
+      </motion.section>
     </div>
   </div>
 );
