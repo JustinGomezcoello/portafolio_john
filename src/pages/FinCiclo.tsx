@@ -17,9 +17,10 @@ const imageVariants = {
 
 function FinCiclo() {
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Aún no hemos concluido. Analicemos el Fin de Ciclo.';
+  const fullText = '    Aún no hemos concluido. Analicemos el Fin de Ciclo.';
 
   useEffect(() => {
+    setTypedText(''); // Reinicia el texto antes de empezar
     let index = 0;
     const typingInterval = setInterval(() => {
       if (index < fullText.length) {
@@ -30,7 +31,7 @@ function FinCiclo() {
       }
     }, 50); // Velocidad de escritura
     return () => clearInterval(typingInterval);
-  }, []);
+  }, [fullText]);
 
   return (
     <div

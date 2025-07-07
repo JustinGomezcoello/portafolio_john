@@ -33,7 +33,7 @@ const FinCicloAutonomo: React.FC = () => (
 
       {/* 3.1 Portafolio Fin de Ciclo */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={1}>
-        <h2 className="text-2xl font-bold mb-2">3.1. Portafolio Fin de Ciclo</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">3.1. Portafolio Fin de Ciclo</h2>
         <p className="mb-2 font-semibold">Introducción:</p>
         <p className="mb-4">Para cerrar el curso, elaboré este portafolio digital donde documento todo el proceso: actividades, evidencias y reflexiones.</p>
         <p className="mb-2 font-semibold">Aprendizaje:</p>
@@ -42,7 +42,7 @@ const FinCicloAutonomo: React.FC = () => (
 
       {/* 3.2 Cuestionario-Teoría */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center" initial="hidden" animate="visible" variants={sectionVariants} custom={2}>
-        <h2 className="text-2xl font-bold mb-2">3.2. Cuestionario-Teoría</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">3.2. Cuestionario-Teoría</h2>
         <motion.img src={foto11} alt="Cuestionario Teoría" className="w-full max-w-2xl rounded-lg mb-8 shadow-lg object-contain h-auto" variants={imageVariants} initial="hidden" animate="visible" />
         <p className="mb-2 font-semibold">Aprendizaje:</p>
         <p>Al completar el cuestionario teórico, reforcé mi comprensión de los principios fundamentales del marketing como la segmentación, posicionamiento y comportamiento del consumidor.</p>
@@ -50,7 +50,7 @@ const FinCicloAutonomo: React.FC = () => (
 
       {/* 2.9 Informe de ventas por stand */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={3}>
-        <h2 className="text-2xl font-bold mb-2">2.9. Informe de ventas por stand</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.9. Informe de ventas por stand</h2>
         <p className="mb-4">Se presentan dos informes de ventas por stand:</p>
         <div className="space-y-6">
           <div>
@@ -80,7 +80,7 @@ const FinCicloAutonomo: React.FC = () => (
 
       {/* 2.10 Glosario colaborativo de términos clave en ventas y fidelización */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={4}>
-        <h2 className="text-2xl font-bold mb-2">2.10. Glosario colaborativo de términos clave en ventas y fidelización</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.10. Glosario colaborativo de términos clave en ventas y fidelización</h2>
         <p className="mb-2 font-semibold">Introducción:</p>
         <p className="mb-4">El "Glosario colaborativo de términos clave en ventas y fidelización" es una actividad en la que los estudiantes definen y ejemplifican conceptos esenciales como ticket promedio, up selling, cross selling, NPS y programa de fidelización. Mediante la construcción conjunta de entradas claras y aplicadas a un entorno real de restaurante, se busca unificar el vocabulario del equipo y profundizar en el significado práctico de cada término.</p>
         <motion.div className="w-full h-[500px] border border-gray-300 rounded-lg overflow-hidden mb-4" variants={imageVariants} initial="hidden" animate="visible">
@@ -96,7 +96,7 @@ const FinCicloAutonomo: React.FC = () => (
 
       {/* 2.11 Formulación de los objetivos Smart */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={5}>
-        <h2 className="text-2xl font-bold mb-2">2.11. Formulación de los objetivos Smart</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.11. Formulación de los objetivos Smart</h2>
         <motion.div className="w-full h-[500px] border border-gray-300 rounded-lg overflow-hidden mb-4" variants={imageVariants} initial="hidden" animate="visible">
           <iframe
             src={ObjetivoSmartPDF}

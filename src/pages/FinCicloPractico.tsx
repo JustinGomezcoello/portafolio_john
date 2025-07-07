@@ -37,7 +37,7 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.1 Caso Práctico 2 */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center" initial="hidden" animate="visible" variants={sectionVariants} custom={1}>
-        <h2 className="text-2xl font-bold mb-2">2.1. Caso Práctico 2</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.1. Caso Práctico 2</h2>
         <p className="mb-2">Casos prácticos en línea, como resolución de problemas reales de marketing.</p>
         <motion.img src={foto14} alt="Caso Práctico 2" className="w-full max-w-2xl rounded-lg mb-8 shadow-lg object-contain h-auto" variants={imageVariants} initial="hidden" animate="visible" />
         <p className="mb-2 font-semibold">Aprendizaje:</p>
@@ -46,7 +46,7 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.2 Evaluación Feria de Emprendedores */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={2}>
-        <h2 className="text-2xl font-bold mb-2">2.2. Evaluación Feria de Emprendedores</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.2. Evaluación Feria de Emprendedores</h2>
         <p className="mb-2 font-semibold">Introducción:</p>
         <p>Como parte de la valoración práctica, diseñé y ejecuté:</p>
         <ul className="list-disc pl-6 mb-2 text-gray-700">
@@ -75,7 +75,7 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.3 Cuestionario-Estrategias de marketing */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center" initial="hidden" animate="visible" variants={sectionVariants} custom={3}>
-        <h2 className="text-2xl font-bold mb-2">2.3. Cuestionario-Estrategias de marketing</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.3. Cuestionario-Estrategias de marketing</h2>
         <motion.img src={foto10} alt="Cuestionario Estrategias de marketing" className="w-full max-w-2xl rounded-lg mb-8 shadow-lg object-contain h-auto" variants={imageVariants} initial="hidden" animate="visible" />
         <p className="mb-2 font-semibold">Aprendizaje:</p>
         <p>Al completar el cuestionario de Estrategias de Marketing, reforcé mi capacidad para identificar y diferenciar tácticas clave, como mezcla de marketing (producto, precio, plaza y promoción), marketing digital y estrategias de fidelización; y aprendí a seleccionar el enfoque más adecuado según los objetivos de un negocio gastronómico, optimizando el valor percibido y la conexión con el cliente.</p>
@@ -83,13 +83,13 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.4 Cuestionario conceptos prácticos marketing */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center" initial="hidden" animate="visible" variants={sectionVariants} custom={4}>
-        <h2 className="text-2xl font-bold mb-2">2.4. Cuestionario conceptos prácticos marketing</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.4. Cuestionario conceptos prácticos marketing</h2>
         <motion.img src={foto8} alt="Cuestionario conceptos prácticos marketing" className="w-full max-w-2xl rounded-lg mb-8 shadow-lg object-contain h-auto" variants={imageVariants} initial="hidden" animate="visible" />
       </motion.section>
 
       {/* 2.5 Aprendizaje práctico experimenta-venta de productos */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={5}>
-        <h2 className="text-2xl font-bold mb-2">2.5. Aprendizaje práctico experimenta-venta de productos</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.5. Aprendizaje práctico experimenta-venta de productos</h2>
         <motion.div className="w-full h-[500px] border border-gray-300 rounded-lg overflow-hidden mb-4" variants={imageVariants} initial="hidden" animate="visible">
           <iframe
             src={VentaProductosPDF}
@@ -110,7 +110,7 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.6 Estrategia de marketing emocional (degustación) */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={6}>
-        <h2 className="text-2xl font-bold mb-2">2.6. Estrategia de marketing emocional (degustación)</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.6. Estrategia de marketing emocional (degustación)</h2>
         <p className="mb-2 font-semibold">Introducción:</p>
         <p>La estrategia de marketing emocional mediante degustaciones aprovecha las sensaciones y emociones que despiertan los sabores para crear vínculos afectivos con la marca. Al ofrecer muestras gratuitas o dirigidas, se busca estimular los sentidos del consumidor, generar experiencias memorables y reforzar la percepción de valor y calidad del producto en un entorno controlado.</p>
         <motion.div className="w-full aspect-video max-w-2xl mx-auto mb-4" variants={imageVariants} initial="hidden" animate="visible">
@@ -128,7 +128,7 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.7 Actividad final: Análisis del nivel de satisfacción del cliente en un establecimiento gastronómico local */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={7}>
-        <h2 className="text-2xl font-bold mb-2">2.7. Actividad final: Análisis del nivel de satisfacción del cliente en un establecimiento gastronómico local</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.7. Actividad final: Análisis del nivel de satisfacción del cliente en un establecimiento gastronómico local</h2>
         <p className="mb-2 font-semibold">Introducción:</p>
         <p>Realiza un análisis de la satisfacción del cliente en un establecimiento gastronómico de tu ciudad, empleando observación directa, encuestas breves y revisión de reseñas digitales. Estructura tu informe con un marco teórico, describe la metodología aplicada, presenta resultados clave y propone recomendaciones basadas en tus hallazgos.</p>
         <motion.div className="w-full h-[500px] border border-gray-300 rounded-lg overflow-hidden mb-4" variants={imageVariants} initial="hidden" animate="visible">
@@ -144,7 +144,7 @@ const FinCicloPractico: React.FC = () => (
 
       {/* 2.8 Aplicación del marketing gastronómico en la feria */}
       <motion.section className="bg-white rounded-lg shadow-lg p-6" initial="hidden" animate="visible" variants={sectionVariants} custom={8}>
-        <h2 className="text-2xl font-bold mb-2">2.8. Aplicación del marketing gastronómico en la feria</h2>
+        <h2 className="text-2xl font-bold mb-2 text-center">2.8. Aplicación del marketing gastronómico en la feria</h2>
         <motion.div className="w-full h-[500px] border border-gray-300 rounded-lg overflow-hidden mb-4" variants={imageVariants} initial="hidden" animate="visible">
           <iframe
             src={Grupo6FeriaPDF}

@@ -13,6 +13,16 @@ const FinAgradecimientos: React.FC = () => (
         Agradecimientos
       </motion.h1>
 
+      {/* Frase inspiradora debajo del título, estilo suave */}
+      <motion.div
+        className="text-center text-lg italic text-white-600 mb-8"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+      >
+        “Que este portafolio sea la prueba de que la pasión por la gastronomía, unida a la creatividad en marketing, puede convertir cada idea en experiencias inolvidables y cada estrategia en éxito real.”
+      </motion.div>
+
       {/* 5. Agradecimientos */}
       <motion.section
         className="bg-white rounded-lg shadow-lg p-6"
