@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import foto11 from '/src/assets/images/foto11.png';
+import fotoextra1 from '/src/assets/images/fotoextra1.jpg';
+import fotoextra2 from '/src/assets/images/fotoextra2.jpg';
 import InformeVentasPDF from '/public/InformedeVentasporStandFeriadeemprendedoresDIABLO.pdf';
 import InformeVentasDIABLOPDF from '/public/InformedeventasDIABLO.pdf';
 import GlosarioColaborativoPDF from '/public/GLOSARIOCOLABORATIVOTÉRMINOSCLAVENVENTASYFIDELIZACIÓN.pdf';
@@ -106,6 +108,53 @@ const FinCicloAutonomo: React.FC = () => (
         </motion.div>
         <p className="mb-2 font-semibold">Aprendizaje:</p>
         <p>Al completar estas tareas de evaluación integral —mi Portafolio de Fin de Ciclo, la Presentación y Defensa de Estrategias Gastronómicas, y la formulación de Objetivos SMART— he demostrado que ya incorporé y apliqué los conocimientos adquiridos durante el ciclo. Estos entregables reflejan mi crecimiento profesional en gastronomía y me brindan una base sólida para enfrentar nuevos retos en mi carrera.</p>
+      </motion.section>
+
+      {/* Feria del Verde */}
+      <motion.section
+        className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center"
+        initial="hidden"
+        animate="visible"
+        variants={sectionVariants}
+        custom={6}
+      >
+        <h2 className="text-2xl font-bold mb-4 text-center">"Sabores que conectan con nuestras raíces" 🌿🍽</h2>
+        <motion.img
+          src={fotoextra1}
+          alt="Feria del Verde"
+          className="w-full max-w-2xl rounded-lg mb-6 shadow-lg object-cover"
+          variants={imageVariants}
+          initial="hidden"
+          animate="visible"
+        />
+        <p className="text-gray-700 text-lg text-center">
+          Así vivimos la Feria del Verde, un encuentro donde la tradición, el emprendimiento y la creatividad se fusionan en cada plato.
+          Más que una feria, es una experiencia que celebra el sabor auténtico del plátano verde, impulsa a nuestros productores locales y fortalece la identidad gastronómica de nuestra tierra.
+        </p>
+      </motion.section>
+
+      {/* Vida Saludable */}
+      <motion.section
+        className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center"
+        initial="hidden"
+        animate="visible"
+        variants={sectionVariants}
+        custom={7}
+      >
+        <h2 className="text-2xl font-bold mb-4 text-center">"Nutrir cuerpo y mente: el sabor de una vida saludable" 🌿🍽</h2>
+        <motion.img
+          src={fotoextra2}
+          alt="Vida Saludable"
+          className="w-full max-w-2xl rounded-lg mb-6 shadow-lg object-cover"
+          variants={imageVariants}
+          initial="hidden"
+          animate="visible"
+        />
+        <p className="text-gray-700 text-lg text-center">
+          En nuestro stand representamos la tendencia global hacia una vida más saludable, combinando creatividad, conocimiento y sabor.
+          Exploramos cómo la gastronomía puede ser aliada clave para el bienestar, demostrando que comer rico también puede ser sinónimo de cuidar el cuerpo.
+          Gracias a todos los que visitaron nuestro espacio, probaron nuestras propuestas y se sumaron a este movimiento que crece con fuerza en el mundo.
+        </p>
       </motion.section>
     </div>
   </div>
